@@ -1,136 +1,374 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>@YossefMohamed</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Draco is free PSD &amp; HTML template by @flamekaizar">
-    <meta name="author" content="Afnizar Nur Ghifari">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Draco is free PSD &amp; HTML template by @flamekaizar"
+    />
+    <meta name="author" content="Afnizar Nur Ghifari" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/kube.min.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/custom.min.css" />
     <link rel="shortcut icon" href="img/favicon.png" />
-	<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<style>
-		.intro h1:before {
-			content: 'Yossef';
-		}
-	</style>
-</head>
-<body>
-	<!-- Navigation -->
-	<div class="main-nav">
-		<div class="container">
-			<header class="group top-nav">
-				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
-				    <span class="logo">YOSSEF</span>
-				</div>
-			    <nav id="navbar-1" class="navbar item-nav">
-				    <ul>
-				        <li class="active"><a href="#about">About</a></li>
-				        <li><a href="#experiences">Experiences</a></li>
-				        <li><a href="#skills">Skills</a></li>
-				    </ul>
-				</nav>
-			</header>
+    <link
+      href="http://fonts.googleapis.com/css?family=Playfair+Display+SC:700"
+      rel="stylesheet"
+      type="text/css"
+    />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+
+    <link
+      href="http://fonts.googleapis.com/css?family=Lato:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .intro h1:before {
+        content: "Yossef";
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <div class="main-nav">
+      <div class="container">
+        <header class="group top-nav">
+          <div
+            class="navigation-toggle"
+            data-tools="navigation-toggle"
+            data-target="#navbar-1"
+          >
+            <span class="logo">YOSSEF</span>
+          </div>
+          <nav id="navbar-1" class="navbar item-nav">
+            <ul>
+              <li class="active"><a href="#about">About</a></li>
+              <li><a href="#experiences">Experiences</a></li>
+              <li><a href="#skills">Skills</a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <!-- Introduction -->
+    <div class="intro section" id="about">
+      <div class="container">
+        <p>Hi, I’m Yossef Mohamed</p>
+        <div class="units-row units-split wrap">
+          <div class="unit-20 avatar" style="filter: grayscale(100%)">
+            <img src="img/ava.jpg" alt="Avatar" />
+          </div>
+          <div class="unit-80">
+            <h1>I live in<br /><span> Cairo , Egypt</span></h1>
+          </div>
+          <p>
+            Hey I'm Yossef Mohamed ,I'm a MERN stack engineer who builds
+            advanced web applications using MongoDB , ReactJS, NodeJS and
+            ExpressJS . Seeking for a fastgrowing company that helps me Add More
+            acquired experiences & skills
+          </p>
+          <div style="display: flex; align-items: center; gap: 20px">
+            <i class="fa-solid fa-phone"></i> +(20)1151784019
+          </div>
+          <div style="display: flex; align-items: center; gap: 20px">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            yossefmohamed112233@gmail.com
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Work Experience -->
+    <div class="work section second" id="experiences">
+      <div class="container">
+        <h1>Work<br />Experiences</h1>
+        <ul class="work-list">
+          <li>2019-Now</li>
+          <li>
+            <a href="https://marvel.edu.eg/">Marvel international school</a>
+          </li>
+          <li>IT Help Desk Engineer</li>
+        </ul>
+        <ul class="work-list">
+          <li>2018-Now</li>
+          <li><a href="#">Freelancer</a></li>
+          <li>Web Developer</li>
+        </ul>
+      </div>
+    </div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" role="dialog">
+	  <div class="modal-dialog">
+	  
+		<!-- Modal content-->
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">Modal Header</h4>
+		  </div>
+		  <div class="modal-body">
+			<img src="./img/twitter.png" class="project-image" srcset="">
+		  </div>
+		  <div class="modal-footer">
+			<a class="btn btn-github" href="#">github</a>
+			<a class="btn btn-demo " href="#">Demo</a>
+		  </div>
 		</div>
+		
+	  </div>
 	</div>
+	
+  </div>
+    <!-- projects -->
+    <div class="skills section second" id="skills">
+      <div class="container">
+        <h1>My<br />Projects</h1>
+		
+        <ul class="skill-list list-flat project-modal" name="0">
+			<li data-toggle="modal" data-target="#myModal" style="cursor: pointer;">Twitter</li>
+          <li>
+            HTML / CSS / Javascript / NodeJS / MongoDB / PugJs / Socket.io
+          </li>
+        </ul>
 
-	<!-- Introduction -->
-	<div class="intro section" id="about">
-		<div class="container">
-			<p>Hi, I’m Yossef Mohamed</p>
-			<div class="units-row units-split wrap">
-				<div class="unit-20 avatar" style="filter: grayscale(100%);">
-					<img src="img/ava.jpg" alt="Avatar">
-				</div>
-				<div class="unit-80">
-					<h1>I live in<br><span > Cairo , Egypt</span></h1>					
-				</div>
-				<p>
-					Hey I'm Yossef Mohamed ,I'm a MERN stack engineer who builds advanced web applications using
-					MongoDB , ReactJS, NodeJS and ExpressJS . Seeking for a fastgrowing company that helps me Add More acquired experiences &
-					skills				</p>
-					<div style="display: flex;align-items: center;gap: 20px;">
-						<i class="fa-solid fa-phone"></i> +(20)1151784019
-					</div>	
-					<div style="display: flex;align-items: center;gap: 20px;">
-					<i class="fa fa-envelope" aria-hidden="true"></i> yossefmohamed112233@gmail.com
-					</div>
+        <ul class="skill-list list-flat project-modal" name="1">
+			<li data-toggle="modal" data-target="#myModal" style="cursor: pointer;">Alink social media app</li>
+          <li>React / Redux / Javascript / NodeJS / MongoDB / Socket.io</li>
+        </ul>
+        <ul class="skill-list list-flat project-modal" name="2">
+			<li data-toggle="modal" data-target="#myModal" style="cursor: pointer;">TAPAQ-food recipes</li>
+          <li>
+            React / Redux / Typescript / Tailwind / NodeJS / MongoDB / ExpressJs
+            / SwaggerJs
+          </li>
+        </ul>
 
-			
-			</div>
-		</div>
-	</div>
+        <ul class="skill-list list-flat project-modal" name="3">
+			<li data-toggle="modal" data-target="#myModal" style="cursor: pointer;">Movie App</li>
+          <li>
+            React / Redux / NextJs / Typescript / Tailwind / NodeJS / MongoDB /
+            GraphQL
+          </li>
+        </ul>
 
-	<!-- Work Experience -->
-	<div class="work section second" id="experiences">
-		<div class="container">
-			<h1>Work<br>Experiences</h1>
-			<ul class="work-list">
-				<li>2019-Now</li>
-				<li><a href="https://marvel.edu.eg/">Marvel international school</a></li>
-				<li>IT Help Desk Engineer</li>
-			</ul>
-			<ul class="work-list">
-				<li>2018-Now</li>
-				<li><a href="#">Freelancer</a></li>
-				<li>Web Developer</li>
-			</ul>
-			
-		</div>
-	</div>
+        <ul class="skill-list list-flat project-modal" name="4">
+			<li data-toggle="modal" data-target="#myModal" style="cursor: pointer;">Blog App</li>
+          <li>React / Redux / Typescript / NodeJS / MongoDB</li>
+        </ul>
 
+        <ul class="skill-list list-flat project-modal" name="5">
+			<li data-toggle="modal" data-target="#myModal" style="cursor: pointer;">Qurany App</li>
+          <li>React / Redux / Typescript / NodeJS / MongoDB</li>
+        </ul>
 
+        <ul class="skill-list list-flat project-modal" name="6">
+			<li data-toggle="modal" data-target="#myModal" style="cursor: pointer;">portfolio</li>
+          <li>React / Redux / Javascript / NodeJS / MongoDB</li>
+        </ul>
+		<ul class="skill-list list-flat project-modal" name="7">
+			<li data-toggle="modal" data-target="#myModal" style="cursor: pointer;">Groovy</li>
+			<li>HTML / CSS / Javascript / JQUERY</li>
+		  </ul>
+        <ul class="skill-list list-flat project-modal" name="8">
+			<li data-toggle="modal" data-target="#myModal" style="cursor: pointer;">myshop</li>
+          <li>React / Redux / Javascript / NodeJS / MongoDB</li>
+        </ul>
 
-	<!-- Technical Skills -->
-	<div class="skills section second" id="skills">
-		<div class="container">
-			<h1>Technical<br>Skills</h1>
-			<ul class="skill-list list-flat">
-				<li>Web Technology</li>
-				<li> Django / Nodejs / GraphQL / Typescript / Reactjs / NextJs / Javascript</li>
-			</ul>
-			<ul class="skill-list list-flat">
-				<li>Database</li>
-				<li>MySQL / MongoDB / Oracle / Access</li>
-			</ul>
-			<ul class="skill-list list-flat">
-				<li>Network</li>
-				<li>CCNA / CCNP SCORE</li>
-			</ul>
-			<ul class="skill-list list-flat">
-				<li>Infrastructure</li>
-				<li>Docker / Kubernetes / Git</li>
-			</ul>
-		</div>
-	</div>
+        <ul class="skill-list list-flat project-modal" name="9">
+			<li data-toggle="modal" data-target="#myModal" style="cursor: pointer;">leaf shop</li>
+          <li>React / Redux / Javascript</li>
+        </ul>
+		<ul class="skill-list list-flat project-modal" name="10">
+			<li data-toggle="modal" data-target="#myModal" style="cursor: pointer;">Metro Gym</li>
+          <li>Html / Css / Javascript</li>
+        </ul>
+        <ul class="skill-list list-flat project-modal" name="11">
+			<li data-toggle="modal" data-target="#myModal" style="cursor: pointer;">Phonix</li>
+          <li>Html / Css / Javascript</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Technical Skills -->
+    <div class="skills section second" id="skills">
+      <div class="container">
+        <h1>Technical<br />Skills</h1>
+        <ul class="skill-list list-flat">
+          <li>Web Technology</li>
+          <li>
+            Django / Nodejs / GraphQL / Typescript / Reactjs / NextJs /
+            Javascript
+          </li>
+        </ul>
+        <ul class="skill-list list-flat">
+          <li>Database</li>
+          <li>MySQL / MongoDB / Oracle / Access</li>
+        </ul>
+        <ul class="skill-list list-flat">
+          <li>Network</li>
+          <li>CCNA / CCNP SCORE</li>
+        </ul>
+        <ul class="skill-list list-flat">
+          <li>Infrastructure</li>
+          <li>Docker / Kubernetes / Git</li>
+        </ul>
+      </div>
+    </div>
 
-	<footer class="border" style="border-top:1px solid #f4f4f4">
-		<div class="container">
-			<div class="units-row">
-			    <div class="unit-50">
-			    	<p>Yossef Mohamed</p>
-			    </div>
-			    <div class="unit-50">
-					<ul class="social list-flat right">
-						<li><a href="mailto:yossefmohamed112233@gmail.com"><i class="fa fa-envelope"></i></a></li>
-						<li><a href="https://www.linkedin.com/in/yossef-mohamed-57996a181/"><i class="fa-brands fa-linkedin"></i></a></li>
-						<li><a href="https://github.com/YossefMohamed"><i class="fa-brands fa-github"></i></a></li>
-					</ul>
-			    </div>
-			</div>
-		</div>
-	</footer>
+    <footer class="border" style="border-top: 1px solid #f4f4f4">
+      <div class="container">
+        <div class="units-row">
+          <div class="unit-50">
+            <p>Yossef Mohamed</p>
+          </div>
+          <div class="unit-50">
+            <ul class="social list-flat right">
+              <li>
+                <a href="mailto:yossefmohamed112233@gmail.com"
+                  ><i class="fa fa-envelope"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/yossef-mohamed-57996a181/"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/YossefMohamed"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-	<!-- Javascript -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/typed.min.js"></script>
+    <!-- Javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/typed.min.js"></script>
     <script src="js/kube.min.js"></script>
-    <script src="js/site.js"></script>
-   
-</body>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+    <script src="js/site.js"> 
+    </script>
+	<script>
+	const projects = [
+
+{
+	title : "Twitter",
+	image : "twitter.png",
+	github : "https://github.com/YossefMohamed/twitter-clone",
+	demo : "https://twitter-clone-6ij7.onrender.com/"
+},{
+	
+
+	title : "Alink Social Network App",
+	image : "alink.png",
+	github : "https://github.com/YossefMohamed/my-social-network",
+},{
+	
+
+	title : "TAPAQ-food recipes App",
+	image : "tapaq.png",
+	github : "https://github.com/YossefMohamed/TAPQ-food-recipes",
+	demo : "https://tab-client.vercel.app/"
+}
+,{
+	
+
+	title : "Movie App",
+	image : "movie-app.png",
+	github : "https://github.com/YossefMohamed/Movie-app",
+	demo : "http://movie-app-theta-ebon.vercel.app/"
+},{
+	
+
+	title : "Blog App",
+	image : "blog.png",
+	github : "https://github.com/YossefMohamed/mern-blog",
+	demo : "https://my-blog-fzxs4r859-yossefmohamed.vercel.app/"
+},{
+	
+
+	title : "Qurany App",
+	image : "qurany.png",
+	github : "https://github.com/YossefMohamed/QN",
+	demo : "http://qn-xi.vercel.app/"
+},{
+	
+
+	title : "Old portfolio",
+	image : "portfolio.png",
+	github : "https://github.com/YossefMohamed/my-portfolio",
+	demo : "https://yossefmohamed.netlify.app/"
+},
+
+{
+	title : "Groovy E-Learning Site",
+	image : "groovy.png",
+	demo : "https://groovy-e-learning.vercel.app/",
+	github : "https://github.com/YossefMohamed/e-learing-project"
+}
+,{
+	
+
+	title : "myshop app",
+	image : "myshop.png",
+	github : "https://github.com/YossefMohamed/myshop",
+},{
+	
+
+	title : "leaf-shop app",
+	image : "leaf shop.png",
+	github : "https://github.com/YossefMohamed/leaf-shop",
+	demo : "https://trusting-carson-643d6e.netlify.app/"
+
+},{
+	
+
+	title : "Metro Gym site",
+	image : "metro gym.png",
+	github : "https://github.com/YossefMohamed/MetroGym",
+	demo : "https://metro-gym.netlify.app/"
+
+},{
+	
+
+	title : "Phonix site",
+	image : "phonix.png",
+	github : "https://github.com/YossefMohamed/phonix",
+	demo : "https://phoenix-site.netlify.app/"
+
+}
+  ]
+	
+  $(".project-modal").click(function(e){
+			const project = $(this).attr('name')
+	console.log('====================================');
+	console.log(projects[project].title);
+	console.log('====================================');
+
+			$(".modal-title").text(projects[project].title)
+			$(".project-image").attr("src","./img/"  +projects[project].image );
+			$(".btn-github").attr("href",projects[project].github );
+			$(".btn-demo").attr("href",projects[project].demo );
+
+
+			
+		});
+	</script>
+  </body>
 </html>
